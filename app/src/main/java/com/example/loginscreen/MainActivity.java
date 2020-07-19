@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
         String psswrd = password.getText().toString();
         Intent intent = new Intent(MainActivity.this, screen.class);
 
-        if (usrname.equals("username") && psswrd.equals("password")) {
+        if (usrname.equals("username") && psswrd.equals("username")) {
             startActivity(intent);
 
             Toast.makeText(this, "successful", Toast.LENGTH_SHORT).show();
